@@ -1,0 +1,135 @@
+---
+import { faker } from "@faker-js/faker";
+---
+
+<section class="px-6 py-8">
+  <h2 class="text-2xl font-semibold text-center mb-8">
+    Words from our clients
+  </h2>
+  <div class="wrapper">
+    <div class="slide fade">
+      <div class="sub-slide">
+        <img src={faker.internet.avatar()} alt="Profile Picture" />
+        <p>
+          {faker.lorem.words(17)}
+        </p>
+        <p>{faker.name.fullName()}</p>
+      </div>
+    </div>
+    <div class="slide fade">
+      <div class="sub-slide">
+        <img src={faker.internet.avatar()} alt="Profile Picture" />
+        <p>
+          {faker.lorem.words(12)}
+        </p>
+        <p>{faker.name.fullName()}</p>
+      </div>
+    </div>
+    <div class="slide fade">
+      <div class="sub-slide">
+        <img src={faker.internet.avatar()} alt="Profile Picture" />
+        <p>
+          {faker.lorem.words(20)}
+        </p>
+        <p>{faker.name.fullName()}</p>
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+</section>
+
+<script is:inline>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides((slideIndex += n));
+  }
+
+  function showSlides(n) {
+    let slides = document.getElementsByClassName("slide");
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+  }
+</script>
+
+<style>
+  section {
+    height: 50vh;
+  }
+  img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+  }
+  .wrapper {
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  .slide {
+    display: none;
+  }
+  .sub-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 0 2rem 0 2rem;
+  }
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #171717;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+</style>
