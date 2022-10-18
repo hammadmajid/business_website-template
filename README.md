@@ -1,3 +1,3 @@
-# template-site-with-astro-tailwind-1
-template website built with Astro,js and tailwind
+# Ipsum Theme
 
+Modern website template made with Astro.js and TailwindCSS bases on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme.
