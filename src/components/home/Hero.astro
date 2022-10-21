@@ -1,11 +1,19 @@
+---
+import Header from "@layouts/Header.astro";
+---
+
 <main
-  class="bg-neutral-900 text-neutral-50 px-6 text-center flex flex-col items-center justify-center gap-6"
+  class="bg-gradient-to-r from-slate-900 via-gray-900 to-neutral-900 text-neutral-50 px-6 text-center flex flex-col items-center justify-center gap-6"
 >
-  <h1 class="text-2xl">Welcome to Ipsum Template</h1>
+  <Header>
+    <h1 class="text-2xl text-blue-500 uppercase font-semibold tracking-wide">
+      Welcome to Ipsum Template
+    </h1>
+  </Header>
   <h2 class="text-4xl font-bold">Free & Modern Website Template</h2>
   <p>
-    Made with <a href="">Astro.js</a> & <a href="">TailwindCSS</a>. Lorem ipsum
-    dolor sit amet consectetur adipisicing.
+    Made with Astro.js & TailwindCSS. Lorem ipsum dolor sit amet consectetur
+    adipisicing.
   </p>
   <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
     <a
