@@ -1,11 +1,12 @@
 ---
 import { faker } from "@faker-js/faker";
+import Header from "@layouts/Header.astro";
 ---
 
-<section class="px-6 py-8">
-  <h2 class="text-2xl font-semibold text-center mb-8">
-    Words from our clients
-  </h2>
+<section class="py-8 flex flex-col justify-between">
+  <Header classList="mb-6">
+    <h2 class="text-2xl font-semibold text-center">Words from our clients</h2>
+  </Header>
   <div class="wrapper">
     <div class="slide fade">
       <div class="sub-slide">
@@ -34,8 +35,10 @@ import { faker } from "@faker-js/faker";
         <p>{faker.name.fullName()}</p>
       </div>
     </div>
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
+    <div class="w-1/2 mx-auto text-center mb-4 mt-4">
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
   </div>
 </section>
 
@@ -65,7 +68,8 @@ import { faker } from "@faker-js/faker";
 
 <style>
   section {
-    height: 50vh;
+    min-height: min-content;
+    max-height: max-content;
   }
   img {
     width: 15%;
@@ -93,30 +97,19 @@ import { faker } from "@faker-js/faker";
   .prev,
   .next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
     width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: #171717;
+    padding: 0.65rem;
+    color: #262626;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.2rem;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-
-  /* Position the "next button" to the right */
-
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(59, 130, 246, 0.8);
   }
   /* Fading animation */
   .fade {
