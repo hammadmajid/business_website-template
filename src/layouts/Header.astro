@@ -3,6 +3,7 @@ const { classList } = Astro.props;
 ---
 
 <div class={classList}>
-  <slot />
-  <div class="bg-blue-500 w-20 h-1 rounded-md mx-auto mt-4"></div>
+  <slot name="heading" />
+  <div class="bg-blue-500 w-20 h-1 rounded-md mx-auto my-4"></div>
+  <slot name="sub-heading" />
 </div>
