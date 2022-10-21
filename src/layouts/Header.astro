@@ -1,0 +1,8 @@
+---
+const { classList } = Astro.props;
+---
+
+<div class={classList}>
+  <slot />
+  <div class="bg-blue-500 w-20 h-1 rounded-md mx-auto mt-4"></div>
+</div>
