@@ -5,7 +5,10 @@ import Header from "@layouts/Header.astro";
 
 <section class="py-8 flex flex-col justify-between">
   <Header classList="mb-6">
-    <h2 class="text-2xl font-semibold text-center">Words from our clients</h2>
+    <h2 class="text-2xl font-semibold text-center" slot="heading">
+      Words from our clients
+    </h2>
+    <h3 slot="sub-heading" class="text-center">We don't like to brag, others do it for us.</h3>
   </Header>
   <div class="wrapper">
     <div class="slide fade">
