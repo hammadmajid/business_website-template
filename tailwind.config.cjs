@@ -11,11 +11,11 @@ module.exports = {
       addComponents({
         ".form-control": {
           padding: ".5rem .85rem",
-          backgroundColor: colors.gray[300],
+          backgroundColor: "linear-gradient(to right, var(--tw-gradient-stops))",
           outlineWidth: "2px",
           outlineStyle: "solid",
-          outlineColor: colors.gray[400],
-					borderRadius: '.15rem'
+          outlineColor: colors.gray[700],
+					borderRadius: '.5rem'
         },
         ".form-div": {
           display: "flex",

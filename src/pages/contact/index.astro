@@ -1,15 +1,18 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
-import Header from "@components/contact/Header.astro";
+import Header from "@layouts/Header.astro";
 import Info from "@components/contact/Info.astro";
 import Form from "@components/contact/Form.astro";
 ---
 
 <BaseLayout pageTitle="Contact Us - Ipsum Template">
   <main
-    class="h-screen bg-gray-300 text-neutral-900 flex flex-col justify-center px-6"
+    class="h-screen bg-gradient-to-r from-slate-900 via-gray-900 to-neutral-900 text-neutral-50 flex flex-col justify-center px-6"
   >
-    <Header />
+    <Header classList="text-center mb-4"
+      ><h1 class="text-3xl font-semibold mb-3" slot="heading">Contact Us</h1>
+      <h2 slot="sub-heading">And we'll reply in no time.</h2>
+    </Header>
     <div class="flex flex-col md:flex-row w-full">
       <Info />
       <Form />
