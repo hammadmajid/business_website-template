@@ -1,0 +1,18 @@
+---
+let { src, text, name } = Astro.props;
+
+import { Image } from "@astrojs/image/components";
+---
+
+<div class="slide fade">
+  <div class="sub-slide">
+    <Image
+      alt={"Picture of " + name}
+      width={128}
+      height={128}
+      src={"/images/testimonial/" + src}
+    />
+    <p class="first-letter:capitalize">{text}</p>
+    <p class="capitalize">{name}</p>
+  </div>
+</div>
