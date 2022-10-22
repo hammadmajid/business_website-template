@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import Header from "@layouts/Header.astro";
+import Progress from "@layouts/Progress.astro";
+import Footer from "@components/Footer.astro";
 ---
 
 <BaseLayout pageTitle="About - Ipsum Template">
@@ -13,5 +15,24 @@ import Header from "@layouts/Header.astro";
         This is what we do in a nutshell
       </h2>
     </Header>
+    <section class="text-center my-6">
+      <p>
+        Creative ut tincidunt nibh, varius cursus nunc. Curabitur molestie,
+        metus vel luctus euismod, mi libero laoreet odio, eu dapibus leo tortor
+        sit amet purus. It is a long established fact that a reader will be
+        distracted by the readable content of a page when looking at its layout.
+      </p>
+      <blockquote class="bg-white p-3 border-l-4 border-blue-500 mt-4">
+        Working with Pixova has been an experience for a lifetime. I strongly
+        reccommend these guys for their awesome support. Erlich Bachman, Aviato
+      </blockquote>
+    </section>
+    <div class="flex flex-col md:flex-row items-center justify-center gap-8 my-6">
+      <Progress progress="71" text="Web Design" />
+      <Progress progress="89" text="Web Developement" />
+      <Progress progress="88" text="Print Design" />
+      <Progress progress="62" text="Graphic IDENTITD" />
+    </div>
   </main>
+  <Footer />
 </BaseLayout>
