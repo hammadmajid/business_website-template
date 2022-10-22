@@ -2,6 +2,7 @@
 import { faker } from "@faker-js/faker";
 import Header from "@layouts/Header.astro";
 import Slide from "@layouts/Slide.astro";
+import { Icon } from "astro-icon";
 
 let fakeNumberOfWords = 25;
 ---
@@ -31,9 +32,13 @@ let fakeNumberOfWords = 25;
       name="Joseph Gonzalez"
       text={faker.lorem.words(fakeNumberOfWords)}
     />
-    <div class="w-1/2 mx-auto text-center mb-4 mt-4">
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
+    <div class="w-1/2 mx-auto text-center my-4 flex flex-row items-center justify-center gap-6">
+      <span class="prev" onclick="plusSlides(-1)">
+        <Icon name="dashicons:arrow-left-alt2" width="26" height="26" />
+      </span>
+      <span class="next" onclick="plusSlides(1)">
+        <Icon name="dashicons:arrow-right-alt2" width="26" height="26" />
+      </span>
     </div>
   </div>
 </section>
