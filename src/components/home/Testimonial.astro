@@ -1,6 +1,9 @@
 ---
 import { faker } from "@faker-js/faker";
 import Header from "@layouts/Header.astro";
+import Slide from "@layouts/Slide.astro";
+
+let fakeNumberOfWords = 25;
 ---
 
 <section class="py-8 flex flex-col justify-between">
@@ -8,36 +11,26 @@ import Header from "@layouts/Header.astro";
     <h2 class="text-2xl font-semibold text-center" slot="heading">
       Words from our clients
     </h2>
-    <h3 slot="sub-heading" class="text-center">We don't like to brag, others do it for us.</h3>
+    <h3 slot="sub-heading" class="text-center">
+      We don't like to brag, others do it for us.
+    </h3>
   </Header>
   <div class="wrapper">
-    <div class="slide fade">
-      <div class="sub-slide">
-        <img src={faker.internet.avatar()} alt="Profile Picture" />
-        <p>
-          {faker.lorem.words(17)}
-        </p>
-        <p>{faker.name.fullName()}</p>
-      </div>
-    </div>
-    <div class="slide fade">
-      <div class="sub-slide">
-        <img src={faker.internet.avatar()} alt="Profile Picture" />
-        <p>
-          {faker.lorem.words(12)}
-        </p>
-        <p>{faker.name.fullName()}</p>
-      </div>
-    </div>
-    <div class="slide fade">
-      <div class="sub-slide">
-        <img src={faker.internet.avatar()} alt="Profile Picture" />
-        <p>
-          {faker.lorem.words(20)}
-        </p>
-        <p>{faker.name.fullName()}</p>
-      </div>
-    </div>
+    <Slide
+      src="ali-morshedlou-unsplash.jpg"
+      name="Ali Morshedlou"
+      text={faker.lorem.words(fakeNumberOfWords)}
+    />
+    <Slide
+      src="michael-dam-unsplash.jpg"
+      name="Michael Dam"
+      text={faker.lorem.words(fakeNumberOfWords)}
+    />
+    <Slide
+      src="joseph-gonzalez-unsplash.jpg"
+      name="Joseph Gonzalez"
+      text={faker.lorem.words(fakeNumberOfWords)}
+    />
     <div class="w-1/2 mx-auto text-center mb-4 mt-4">
       <a class="prev" onclick="plusSlides(-1)">❮</a>
       <a class="next" onclick="plusSlides(1)">❯</a>
@@ -69,15 +62,14 @@ import Header from "@layouts/Header.astro";
   }
 </script>
 
-<style>
+<style is:inline>
   section {
     min-height: min-content;
     max-height: max-content;
   }
   img {
-    width: 15%;
-    height: 15%;
     border-radius: 50%;
+    object-fit: cover;
   }
   .wrapper {
     width: 100%;
