@@ -1,0 +1,69 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<nav class="px-4 py-2 grid grid-cols-2">
+  <a href="/home" class="cursor-pointer hover:text-blue-600">
+    <Icon name="favicon" width="24" height="24" />
+  </a>
+  <ul
+    class="hidden text-center capitalize md:flex md:flex-row md:items-center md:justify-center md:gap-6 row-start-2 row-end-3 col-span-full md:row-start-auto md:row-end-auto md:col-start-auto md:col-end-auto"
+    id="nav-links"
+  >
+    <li>
+      <a
+        href="/home"
+        class="cursor-pointer hover:text-blue-500 transition-colors font-semibold"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a
+        href="/home/#testimonial"
+        class="cursor-pointer hover:text-blue-500 transition-colors font-semibold"
+        >Testimonial</a
+      >
+    </li>
+    <li>
+      <a
+        href="/contact"
+        class="cursor-pointer hover:text-blue-500 transition-colors font-semibold"
+        >contact</a
+      >
+    </li>
+    <li>
+      <a
+        href="/about"
+        class="cursor-pointer hover:t ext-blue-500 transition-colors font-semibold"
+        >About</a
+      >
+    </li>
+  </ul>
+  <div class="md:hidden place-self-end">
+    <a onclick="displayMenu()">
+      <Icon name="bi:list" width="24" height="24" />
+    </a>
+    <!-- TODO: display this when navar is opended -->
+    <!-- <Icon name="bi:x" width="24" height="24" /> -->
+  </div>
+</nav>
+
+<script is:inline>
+  function displayMenu() {
+    let e = document.getElementById("nav-links");
+    e.classList.toggle("active-state");
+  }
+</script>
+
+<style>
+  [astro-icon="favicon"]:hover {
+    fill: rgb(37 99 235);
+    cursor: pointer;
+  }
+  .active-state {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+  }
+</style>
