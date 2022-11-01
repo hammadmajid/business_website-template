@@ -1,5 +1,6 @@
 ---
 const { pageTitle } = Astro.props;
+import NavBar from "@components/NavBar.astro";
 ---
 
 <!DOCTYPE html>
@@ -10,6 +11,7 @@ const { pageTitle } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{pageTitle}</title>
   </head>
+  <NavBar />
   <body class="bg-neutral-50 text-neutral-900 min-h-screen max-h-max">
     <slot />
   </body>
