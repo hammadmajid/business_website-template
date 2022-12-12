@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/hammadmajid/bussiness_site-template/badge)](https://www.codefactor.io/repository/github/hammadmajid/bussiness_site-template)
+
 # Bussiness Website Template
 
 Bussiness website tempalte made with Astro.js and TailwindCSS based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. Checkout the live preview [here](https://ipsum-template.vercel.app/)
