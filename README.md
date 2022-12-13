@@ -2,25 +2,29 @@
 
 # Bussiness Website Template
 
-Bussiness website tempalte made with Astro.js and TailwindCSS based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. Checkout the live preview [here](https://ipsum-template.vercel.app/)
+Responsive bussiness website tempalte made with [Astro.js]() and [TailwindCSS]() based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. You view the working preview of the website [here](https://ipsum-template.vercel.app/).
 
 ## Features
 
-- Testominials
-- Project Card *(comming soon)*
+- Testominials Section
 - Contact Page
-- Latest News *(coming soon)*
+- About Page
+- Project Card *(comming soon)*
+- Latest News Card *(coming soon)*
 
+## Code of Conduct
+
+This project has adopted the [Contributor Covenant Code of Conduct](./CODE_OF_CONDUCT.md). For any questions or comment you can contact [hm.hammadmajid@gmail.com](hm.hammadmajid@gmail.com).
 
 ## Contributors guildlines
 
-See the [contributing guide]() for detailed instrutions on how to get stared with this project. For more complex contributions, youcan open an issue using most approriate issue templaet ro decseive the hcange you'd like to see.
+See the [contributing guide](./CONTRIBUTING.md) for detailed instructions on how to get started with this project. For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/hammadmajid/bussiness_site-template/issues/new/choose) to describe the changes you'd like to see.
 
-If you are looking to contribute, you can scan horugh our existing issues for something to work on. also checkout his open souce hudle
+If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/hammadmajid/bussiness_site-template/issues) for something to work on, also checkout thi Open-Source Guide.
 
 ## License
 
-This template is licensed under *General Public License v3.0*. You may copy, distribute and modify it under the terms and conditions contained in the file `LICENSE`.
+This project is licensed under **General Public License v3.0**. You may copy, distribute and modify it under the terms and conditions contained in the file `LICENSE`.
 
 ---
 
