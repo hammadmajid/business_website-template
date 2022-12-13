@@ -6,7 +6,7 @@ Responsive bussiness website tempalte made with [Astro.js](https://astro.build/)
 
 ## Features
 
-- Testominials Section
+- Testimonials Section
 - Contact Page
 - About Page
 - Project Card *(comming soon)*
@@ -45,7 +45,7 @@ This project has adopted the [Contributor Covenant Code of Conduct](./CODE_OF_CO
 
 See the [contributing guide](./CONTRIBUTING.md) for detailed instructions on how to get started with this project. For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/hammadmajid/bussiness_site-template/issues/new/choose) to describe the changes you'd like to see.
 
-If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/hammadmajid/bussiness_site-template/issues) for something to work on, also checkout thi Open-Source Guide.
+If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/hammadmajid/bussiness_site-template/issues) for something to work on, also checkout this Open-Source [Guide](https://opensource.guide/).
 
 ## License
 
