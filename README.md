@@ -9,7 +9,7 @@ Responsive bussiness website tempalte made with [Astro.js](https://astro.build/)
 - Testimonials Section
 - Contact Page
 - About Page
-- Project Card *(comming soon)*
+- Project Card *(coming soon)*
 - Latest News Card *(coming soon)*
 
 ## Setup Guide
