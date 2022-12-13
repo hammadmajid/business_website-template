@@ -2,7 +2,7 @@
 
 # Bussiness Website Template
 
-Responsive bussiness website tempalte made with [Astro.js]() and [TailwindCSS]() based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. You view the working preview of the website [here](https://ipsum-template.vercel.app/).
+Responsive bussiness website tempalte made with [Astro.js](https://astro.build/) and [TailwindCSS](https://tailwindcss.com/) based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. You view the working preview of the website [here](https://ipsum-template.vercel.app/).
 
 ## Features
 
@@ -11,6 +11,31 @@ Responsive bussiness website tempalte made with [Astro.js]() and [TailwindCSS]()
 - About Page
 - Project Card *(comming soon)*
 - Latest News Card *(coming soon)*
+
+## Setup Guide
+
+1. Clone the repository
+```bash
+$ git clone https://github.com/hammadmajid/bussiness_site-template.git
+```
+
+2. Install the dependencies
+```bash
+# install the dependecies listed in package-lock.json
+$ npm ci 
+# install the latest dependencies
+$ npm install
+```
+
+3. Build the site
+```bash
+$ npm run build
+```
+
+4. Run the live preview
+```bash
+$ npm run preview
+```
 
 ## Code of Conduct
 
