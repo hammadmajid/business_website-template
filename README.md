@@ -2,7 +2,7 @@
 
 # Pixova New
 
-Modern and Free website template made with **Astro.js** and **TailwindCSS** based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. View the demo [here](https://pixova-new.vercel.app/home).
+Pixova New is a modern, performant and accessible website template built with **Astro.js** and **TailwindCSS** based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. View the demo [here](https://pixova-new.vercel.app/home).
 
 ## Key Features
 
