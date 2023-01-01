@@ -6,9 +6,9 @@
 3. Push to your fork and [submit a pull request][compare] with this [template][pr_template].
 4. Pat yourself on the back and wait for your pull request to be reviewed.
 
-[contributor]: https://github.com/hammadmajid/bussiness_site-templae/tree/master#contributors
-[fork]: https://github.com/hammadmajid/bussiness_site-templae/fork
-[compare]: https://github.com/hammadmajid/bussiness_site-templae/compare
+[contributor]: https://github.com/hammadmajid/pixova-new/tree/master#contributors
+[fork]: https://github.com/hammadmajid/pixova-new/fork
+[compare]: https://github.com/hammadmajid/pixova-new/compare
 [pr_template]: ./.github/pull_request_template.md
 [branch_name]: https://github.com/agis/git-style-guide#branches
 [commit_tips]: https://github.com/agis/git-style-guide#messages
