@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/67387019/210174478-a184d916-f875-4762-bd36-caef50075a0c.png)
+![image](https://user-images.githubusercontent.com/67387019/210174690-e3fba912-f813-47c4-a1ee-b4088f13532f.png)
+
 # Pixova New
 
 Modern and Free website template made with **Astro.js** and **TailwindCSS** based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. View the demo [here](https://pixova-new.vercel.app/home).
