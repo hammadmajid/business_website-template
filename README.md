@@ -36,7 +36,7 @@ $ npm run preview
 
 ## Code of Conduct
 
-This project has adopted the [Contributor Covenant Code of Conduct](./CODE_OF_CONDUCT.md). For any questions or comment you can contact [hm.hammadmajid@gmail.com](hm.hammadmajid@gmail.com).
+This project has adopted the [Contributor Covenant Code of Conduct](./CODE_OF_CONDUCT.md). For any questions or comment you can contact [hm.hammadmajid@gmail.com](mailto:hm.hammadmajid@gmail.com).
 
 ## Contributors guildlines
 
