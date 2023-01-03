@@ -9,31 +9,75 @@ Pixova New is a modern, performant and accessible website template built with **
 - Testimonials
 - Contact Page
 - Project Card *(coming soon)*
-- Project Page
+- Project Page *(coming soon)*
 - Latest News Card *(coming soon)*
+
+## Project Structure
+
+Inside you will find the following files and folders
+
+```
+.
+├── public
+│   ├── images
+│   │   └── testimonial
+│   │       ├── ali-morshedlou-unsplash.jpg
+│   │       ├── joseph-gonzalez-unsplash.jpg
+│   │       └── michael-dam-unsplash.jpg
+│   └── favicon.svg
+├── src
+│   ├── components
+│   │   ├── contact
+│   │   │   ├── Form.astro
+│   │   │   └── Info.astro
+│   │   ├── home
+│   │   │   ├── Hero.astro
+│   │   │   └── Testimonial.astro
+│   │   ├── Footer.astro
+│   │   └── NavBar.astro
+│   ├── icons
+│   │   └── favicon.svg
+│   ├── layouts
+│   │   ├── BaseLayout.astro
+│   │   ├── Header.astro
+│   │   ├── Progress.astro
+│   │   └── Slide.astro
+│   ├── pages
+│   │   ├── about
+│   │   │   └── index.astro
+│   │   ├── contact
+│   │   │   └── index.astro
+│   │   ├── home
+│   │   │   └── index.astro
+│   │   └── index.astro
+│   └── env.d.ts
+├── astro.config.mjs
+├── package-lock.json
+├── package.json
+├── tailwind.config.cjs
+└── tsconfig.json
+```
 
 ## Setup Guide
 
-1. Clone the repository
 ```bash
+# Clone the repository
 $ git clone https://github.com/hammadmajid/pixova-new.git
-```
 
-2. Install the dependencies
-```bash
-# install the dependecies
+# Install the dependencies
 $ npm ci 
-```
 
-3. Build the site
-```bash
+# Build the site
 $ npm run build
-```
 
-4. Run the live preview
-```bash
+# Run the live preview
 $ npm run preview
 ```
+
+## Tech Stack
+
+- Main Framework: [Astro.js]()
+- UI Library: [TailwindCSS]()
 
 ## Code of Conduct
 
