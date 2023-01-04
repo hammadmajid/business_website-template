@@ -1,8 +1,11 @@
-![image](https://user-images.githubusercontent.com/67387019/210174690-e3fba912-f813-47c4-a1ee-b4088f13532f.png)
+![Pixova New GitHub Social Card](https://user-images.githubusercontent.com/67387019/210561021-70fed8d5-eb09-454e-aefa-d57dff61ac59.png)
 
 # Pixova New
 
-Pixova New is a modern, performant and accessible website template built with **Astro.js** and **TailwindCSS** based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. View the demo [here](https://pixova-new.vercel.app/home).
+Production ready, modern & accessible website template built with **Astro.js** and **TailwindCSS** based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme.
+
+- [Live Preview](https://pixova-new.vercel.app/home)
+- [Design Prototype](https://www.figma.com/community/file/1191395768220581342)
 
 ## Key Features
 
@@ -13,8 +16,6 @@ Pixova New is a modern, performant and accessible website template built with **
 - Latest News Card *(coming soon)*
 
 ## Project Structure
-
-Inside you will find the following files and folders
 
 ```
 .
@@ -92,6 +93,10 @@ If you're looking for a way to contribute, you can scan through our [existing is
 ## License
 
 This project is licensed under **General Public License v3.0**. You may copy, distribute and modify it under the terms and conditions contained in the file `LICENSE`.
+
+## Credit
+
+- Pixova Lite by ColorLib
 
 ---
 
