@@ -5,6 +5,12 @@ module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {},
+    colors: {
+      'primary': colors.blue[500],
+      'primary-hover': colors.blue[600],
+      'secondary': colors.slate[50],
+      'tertiary': colors.slate[900]
+    }
   },
   plugins: [
     plugin(function ({ addComponents }) {
