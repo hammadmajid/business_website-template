@@ -1,39 +1,87 @@
-![image](https://user-images.githubusercontent.com/67387019/210174690-e3fba912-f813-47c4-a1ee-b4088f13532f.png)
+![Pixova New GitHub Social Card](https://user-images.githubusercontent.com/67387019/210561021-70fed8d5-eb09-454e-aefa-d57dff61ac59.png)
 
 # Pixova New
 
-Pixova New is a modern, performant and accessible website template built with **Astro.js** and **TailwindCSS** based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme. View the demo [here](https://pixova-new.vercel.app/home).
+Production ready, modern & accessible website template built with **Astro.js** and **TailwindCSS** based on [Pixova Lite](https://colorlib.com/wp/themes/pixova-lite/) theme.
+
+- [Live Preview](https://pixova-new.vercel.app/home)
+- [Design Prototype](https://www.figma.com/community/file/1191395768220581342)
 
 ## Key Features
 
 - Testimonials
 - Contact Page
 - Project Card *(coming soon)*
-- Project Page
+- Project Page *(coming soon)*
 - Latest News Card *(coming soon)*
+
+## Project Structure
+
+```
+.
+├── public
+│   ├── images
+│   │   └── testimonial
+│   │       ├── ali-morshedlou-unsplash.jpg
+│   │       ├── joseph-gonzalez-unsplash.jpg
+│   │       └── michael-dam-unsplash.jpg
+│   └── favicon.svg
+├── src
+│   ├── components
+│   │   ├── contact
+│   │   │   ├── Form.astro
+│   │   │   └── Info.astro
+│   │   ├── home
+│   │   │   ├── Hero.astro
+│   │   │   └── Testimonial.astro
+│   │   ├── Footer.astro
+│   │   └── NavBar.astro
+│   ├── icons
+│   │   └── favicon.svg
+│   ├── layouts
+│   │   ├── BaseLayout.astro
+│   │   ├── Header.astro
+│   │   ├── Progress.astro
+│   │   └── Slide.astro
+│   ├── pages
+│   │   ├── about
+│   │   │   └── index.astro
+│   │   ├── contact
+│   │   │   └── index.astro
+│   │   ├── home
+│   │   │   └── index.astro
+│   │   └── index.astro
+│   └── env.d.ts
+├── astro.config.mjs
+├── package-lock.json
+├── package.json
+├── tailwind.config.cjs
+└── tsconfig.json
+```
 
 ## Setup Guide
 
-1. Clone the repository
 ```bash
+# Clone the repository
 $ git clone https://github.com/hammadmajid/pixova-new.git
-```
 
-2. Install the dependencies
-```bash
-# install the dependecies
+# Install the dependencies
 $ npm ci 
-```
 
-3. Build the site
-```bash
+# Build the site
 $ npm run build
-```
 
-4. Run the live preview
-```bash
+# Run the live preview
 $ npm run preview
 ```
+
+## Tech Stack
+
+- Main Framework: [Astro.js](https://astro.build/)
+- Styling: [TailwindCSS](https://tailwindcss.com/)
+- Icons: [Iconify](https://iconify.design/)
+- UI/UX: [Figma](https://www.figma.com/)
+- Deployment: [Vercel](https://vercel.com/)
 
 ## Code of Conduct
 
@@ -48,6 +96,10 @@ If you're looking for a way to contribute, you can scan through our [existing is
 ## License
 
 This project is licensed under **General Public License v3.0**. You may copy, distribute and modify it under the terms and conditions contained in the file `LICENSE`.
+
+## Credit
+
+- Pixova Lite by ColorLib
 
 ---
 
