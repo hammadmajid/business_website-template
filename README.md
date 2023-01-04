@@ -77,8 +77,11 @@ $ npm run preview
 
 ## Tech Stack
 
-- Main Framework: [Astro.js]()
-- UI Library: [TailwindCSS]()
+- Main Framework: [Astro.js](https://astro.build/)
+- Styling: [TailwindCSS](https://tailwindcss.com/)
+- Icons: [Iconify](https://iconify.design/)
+- UI/UX: [Figma](https://www.figma.com/)
+- Deployment: [Vercel](https://vercel.com/)
 
 ## Code of Conduct
 
